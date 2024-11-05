@@ -2,24 +2,6 @@
 
 int main (void) {
 
-    //Prompting user to enter rows and columns
-    int row, col;
-    printf ("Please enter number of rows: ");
-    scanf ("%d", &row);
-    printf ("Please enter number of columns: ");
-    scanf ("%d", &col);
-    printf ("\n");
-    
-    //printing number of rows
-    for (int x=row; x >= 1; x--) {
-
-        //printing number of columns
-        for (int y = col; y >= 1; y--) {
-            printf (" * ");
-        }
-
-        printf ("\n"); //printing new line after finishing the number of col
-
-    }
+    printf ("Hello World");
 
 }
